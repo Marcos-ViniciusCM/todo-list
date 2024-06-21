@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import br.com.marcos.record.TodoDto;
 import jakarta.validation.constraints.NotBlank;
 
-@Document(collection = "shorten-url")
+@Document(collection = "todo-list")
 public class Todo {
 
 	@Id
